@@ -1,5 +1,5 @@
 {
-  "name": "skyparam",
+  "name": "t-shirt-store",
   "proxy": "http://localhost:5000",
   "homepage": "https://nazar-koltsun.github.io/t-shirt-store",
   "version": "0.1.0",
