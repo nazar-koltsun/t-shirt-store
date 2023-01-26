@@ -83,7 +83,7 @@ const OrderScreen = () => {
 
             <div className="order-product row">
               <div className="col-md-3 col-6">
-                <img src="/images/4.png" alt="product" />
+                <img src="./images/4.png" alt="product" />
               </div>
               <div className="col-md-5 col-6 d-flex align-items-center">
                 <Link to={`/`}>
