@@ -29,6 +29,7 @@ const App = () => {
         <Route path="/payment" component={PaymentScreen} />
         <Route path="/placeorder" component={PlaceOrderScreen} />
         <Route path="/order" component={OrderScreen} />
+        <Route path="/t-shirt-store" component={HomeScreen} exact />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>
