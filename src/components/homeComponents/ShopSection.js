@@ -5,6 +5,9 @@ import products from "../../data/Products";
 import Pagination from "./pagination";
 
 const ShopSection = () => {
+  const isLocalhost = window.location.href.indexOf('localhost') > 0;
+  const baseUrl = isLocalhost ? '' : '/t-shirt-store';
+
   return (
     <>
       <div className="container">
@@ -18,7 +21,7 @@ const ShopSection = () => {
                     key={product._id}
                   >
                     <div className="border-product">
-                      <Link to={`/products/${product._id}`}>
+                      <Link to={`${baseUrl}/products/${product._id}`}>
                         <div className="shopBack">
                           <img src={`./images/${product.image}`} alt={product.name} />
                         </div>
@@ -26,7 +29,7 @@ const ShopSection = () => {
 
                       <div className="shoptext">
                         <p>
-                          <Link to={`/products/${product._id}`}>
+                          <Link to={`${baseUrl}/products/${product._id}`}>
                             {product.name}
                           </Link>
                         </p>

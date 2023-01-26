@@ -6,6 +6,7 @@ import products from "../data/Products";
 
 const SingleProduct = ({ match }) => {
   const product = products.find(product => product._id === match.params.id);
+  const isLocalhost = window.location.href.indexOf('localhost') > 0;
   
   return (
     <>
@@ -14,7 +15,7 @@ const SingleProduct = ({ match }) => {
         <div className="row">
           <div className="col-md-6">
             <div className="single-image">
-              <img src={`./images/${product.image}`} alt={product.name} />
+              <img src={isLocalhost ? `/images/${product.image}` : `./images/${product.image}`} alt={product.name} />
             </div>
           </div>
           <div className="col-md-6">
