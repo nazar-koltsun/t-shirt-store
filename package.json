@@ -1,9 +1,8 @@
 {
   "name": "t-shirt-store",
   "proxy": "http://localhost:5000",
-  "homepage": "https://t-shirt-store.github.io",
+  "homepage": "https://nazar-koltsun.github.io/t-shirt-store",
   "version": "0.1.0",
-  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
