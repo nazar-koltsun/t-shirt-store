@@ -16,21 +16,23 @@ import OrderScreen from "./screens/OrderScreen";
 import NotFound from "./screens/NotFound";
 
 const App = () => {
+  const isLocalhost = window.location.href.indexOf('localhost') > 0;
+  const baseUrl = isLocalhost ? '' : '/t-shirt-store';
+
   return (
     <Router>
       <Switch>
-        <Route path="/" component={HomeScreen} exact />
-        <Route path="/products/:id" component={SingleProduct} />
-        <Route path="/login" component={Login} />
-        <Route path="/register" component={Register} />
-        <Route path="/profile" component={ProfileScreen} />
-        <Route path="/cart/:id?" component={CartScreen} />
-        <Route path="/shipping" component={ShippingScreen} />
-        <Route path="/payment" component={PaymentScreen} />
-        <Route path="/placeorder" component={PlaceOrderScreen} />
-        <Route path="/order" component={OrderScreen} />
-        <Route path="/t-shirt-store" component={HomeScreen} exact />
-        <Route path="*" component={NotFound} />
+        <Route path={`${baseUrl}/`} component={HomeScreen} exact />
+        <Route path={`${baseUrl}/products/:id`} component={SingleProduct} />
+        <Route path={`${baseUrl}/login`} component={Login} />
+        <Route path={`${baseUrl}/register`} component={Register} />
+        <Route path={`${baseUrl}/profile`} component={ProfileScreen} />
+        <Route path={`${baseUrl}/cart:id?`} component={CartScreen} />
+        <Route path={`${baseUrl}/shipping`} component={ShippingScreen} />
+        <Route path={`${baseUrl}/payment`} component={PaymentScreen} />
+        <Route path={`${baseUrl}/placeorder`} component={PlaceOrderScreen} />
+        <Route path={`${baseUrl}/order`} component={OrderScreen} />
+        <Route path={`${baseUrl}/*`} component={NotFound} />
       </Switch>
     </Router>
   );
