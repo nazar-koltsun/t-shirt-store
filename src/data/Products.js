@@ -2,7 +2,7 @@ const products = [
   {
     _id: "1",
     name: "Under Armour Men's HeatGear Compression Long-Sleeve T-Shirt",
-    image: "/images/1.jpeg",
+    image: "./images/1.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 30,
@@ -13,7 +13,7 @@ const products = [
   {
     _id: "2",
     name: "Disney Men's Full Size Mickey Mouse Distressed Look T-Shirt",
-    image: "/images/2.jpeg",
+    image: "./images/2.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 25,
@@ -24,7 +24,7 @@ const products = [
   {
     _id: "3",
     name: "Under Armour Women's Tech V-Neck Twist Short-Sleeve T-Shirt",
-    image: "/images/3.jpeg",
+    image: "./images/3.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 22,
@@ -35,7 +35,7 @@ const products = [
   {
     _id: "4",
     name: "HUK Men's Short Sleeve Tee | Performance Fishing T-Shirt",
-    image: "/images/4.jpeg",
+    image: "./images/4.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 20,
@@ -46,7 +46,7 @@ const products = [
   {
     _id: "5",
     name: "Salt Life Men's Skull and Hooks Short Sleeve Pocket Crew Neck Tee",
-    image: "/images/5.jpeg",
+    image: "./images/5.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 22,
@@ -57,7 +57,7 @@ const products = [
   {
     _id: "6",
     name: "Life is Good Women's Crusher Graphic Long Sleeve T-Shirt Three Daisies",
-    image: "/images/6.jpeg",
+    image: "./images/6.jpeg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 32,
