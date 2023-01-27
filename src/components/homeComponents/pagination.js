@@ -6,29 +6,29 @@ const Pagination = () => {
     <nav>
       <ul className="pagination justify-content-center">
         <li className={`page-item active`}>
-          <Link className="page-link" to={"#"}>
+          <a className="page-link" href={"#"}>
             1
-          </Link>
+          </a>
         </li>
         <li className={`page-item`}>
-          <Link className="page-link" to={"#"}>
+          <a className="page-link" href={"#"}>
             2
-          </Link>
+          </a>
         </li>
         <li className={`page-item`}>
-          <Link className="page-link" to={"#"}>
+          <a className="page-link" href={"#"}>
             3
-          </Link>
+          </a>
         </li>
         <li className={`page-item`}>
-          <Link className="page-link" to={"#"}>
+          <a className="page-link" href={"#"}>
             4
-          </Link>
+          </a>
         </li>
         <li className={`page-item`}>
-          <Link className="page-link" to={"#"}>
+          <a className="page-link" href={"#"}>
             5
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

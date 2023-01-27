@@ -16,9 +16,9 @@ const Register = () => {
 
           <button type="submit">Register</button>
           <p>
-            <Link to={"/login"}>
+            <a href={"/login"}>
               I Have Account <strong>Login</strong>
-            </Link>
+            </a>
           </p>
         </form>
       </div>

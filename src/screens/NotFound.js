@@ -15,9 +15,9 @@ const NotFound = () => {
             alt="Not-found"
           />
           <button className="col-md-3 col-sm-6 col-12 btn btn-success mt-5">
-            <Link to="/" className="text-white text-decoration-none">
+            <a href="/" className="text-white text-decoration-none">
               Home page
-            </Link>
+            </a>
           </button>
         </div>
       </div>

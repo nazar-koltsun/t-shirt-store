@@ -22,9 +22,9 @@ const ShippingScreen = () => {
           <input type="text" placeholder="Enter postal code" />
           <input type="text" placeholder="Enter country" />
           <button type="submit">
-            <Link to="/payment" className="text-white">
+            <a href="/payment" className="text-white">
               Continue
-            </Link>
+            </a>
           </button>
         </form>
       </div>

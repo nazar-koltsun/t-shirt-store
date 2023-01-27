@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const isLocalhost = window.location.href.indexOf('localhost') > 0;
 
   return (
     <div>
@@ -15,21 +14,21 @@ const Header = () => {
               <p>info@zpunet.com</p>
             </div>
             <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
-              <Link to="">
+              <a href="">
                 <i className="fab fa-facebook-f"></i>
-              </Link>
-              <Link to="">
+              </a>
+              <a href="">
                 <i className="fab fa-instagram"></i>
-              </Link>
-              <Link to="">
+              </a>
+              <a href="">
                 <i className="fab fa-linkedin-in"></i>
-              </Link>
-              <Link to="">
+              </a>
+              <a href="">
                 <i className="fab fa-youtube"></i>
-              </Link>
-              <Link to="">
+              </a>
+              <a href="">
                 <i className="fab fa-pinterest-p"></i>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -42,9 +41,9 @@ const Header = () => {
             <div className="container ">
               <div className="row ">
                 <div className="col-6 d-flex align-items-center">
-                  <Link className="navbar-brand" to="/">
-                    <img alt="logo" src={isLocalhost ? '/images/logo.png' : './images/logo.png'} />
-                  </Link>
+                  <a className="navbar-brand" href="/">
+                    <img alt="logo" src={'/images/logo.png'} />
+                  </a>
                 </div>
                 <div className="col-6 d-flex align-items-center justify-content-end Login-Register">
                   <div className="btn-group">
@@ -58,19 +57,19 @@ const Header = () => {
                       <i class="fas fa-user"></i>
                     </button>
                     <div className="dropdown-menu">
-                      <Link className="dropdown-item" to="/profile">
+                      <a className="dropdown-item" href="/profile">
                         Profile
-                      </Link>
+                      </a>
 
-                      <Link className="dropdown-item" to="#">
+                      <a className="dropdown-item" href="#">
                         Logout
-                      </Link>
+                      </a>
                     </div>
                   </div>
-                  <Link to="/cart" className="cart-mobile-icon">
+                  <a href="/cart" className="cart-mobile-icon">
                     <i className="fas fa-shopping-bag"></i>
                     <span className="badge">4</span>
-                  </Link>
+                  </a>
                 </div>
                 <div className="col-12 d-flex align-items-center">
                   <form className="input-group">
@@ -92,9 +91,9 @@ const Header = () => {
           <div className="pc-header">
             <div className="row">
               <div className="col-md-3 col-4 d-flex align-items-center">
-                <Link className="navbar-brand" to="/">
-                  <img alt="logo" src={isLocalhost ? '/images/logo.png' : './images/logo.png'} />
-                </Link>
+                <a className="navbar-brand" href="/">
+                  <img alt="logo" src={'/images/logo.png'} />
+                </a>
               </div>
               <div className="col-md-6 col-8 d-flex align-items-center">
                 <form className="input-group">
@@ -120,20 +119,20 @@ const Header = () => {
                     Hi, Admin Doe
                   </button>
                   <div className="dropdown-menu">
-                    <Link className="dropdown-item" to="/profile">
+                    <a className="dropdown-item" href="/profile">
                       Profile
-                    </Link>
+                    </a>
 
-                    <Link className="dropdown-item" to="#">
+                    <a className="dropdown-item" href="#">
                       Logout
-                    </Link>
+                    </a>
                   </div>
                 </div>
 
-                <Link to="/cart">
+                <a href="/cart">
                   <i className="fas fa-shopping-bag"></i>
                   <span className="badge">4</span>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

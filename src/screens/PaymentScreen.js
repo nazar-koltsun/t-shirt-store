@@ -25,9 +25,9 @@ const PaymentScreen = () => {
           </div>
 
           <button type="submit">
-            <Link to="/placeorder" className="text-white">
+            <a href="/placeorder" className="text-white">
               Continue
-            </Link>
+            </a>
           </button>
         </form>
       </div>

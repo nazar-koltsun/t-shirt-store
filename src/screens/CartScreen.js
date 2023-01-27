@@ -11,21 +11,21 @@ const CartScreen = () => {
       <div className="container">
         {/* <div className=" alert alert-info text-center mt-3">
           Your cart is empty
-          <Link
+          <a
             className="btn btn-success mx-5 px-5 py-3"
-            to="/"
+            href="/"
             style={{
               fontSize: "12px",
             }}
           >
             SHOPPING NOW
-          </Link>
+          </a>
         </div> */}
         <div className=" alert alert-info text-center mt-3">
           Total Cart Products
-          <Link className="text-success mx-2" to="/cart">
+          <a className="text-success mx-2" href="/cart">
             (4)
-          </Link>
+          </a>
         </div>
         {/* cartiterm */}
         <div className="cart-iterm row">
@@ -36,9 +36,9 @@ const CartScreen = () => {
             <img src="./images/2.jpeg" alt="" />
           </div>
           <div className="cart-text col-md-5 d-flex align-items-center">
-            <Link to="#">
+            <a href="#">
               <h4>Nike Girls Shoe</h4>
-            </Link>
+            </a>
           </div>
           <div className="cart-qty col-md-2 col-sm-5 mt-md-5 mt-3 mt-md-0 d-flex flex-column justify-content-center">
             <h6>QUANTITY</h6>
@@ -61,14 +61,14 @@ const CartScreen = () => {
         </div>
         <hr />
         <div className="cart-buttons d-flex align-items-center row">
-          <Link to="/" className="col-md-6 ">
+          <a href="/" className="col-md-6 ">
             <button>Continue To Shopping</button>
-          </Link>
+          </a>
           <div className="col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
             <button>
-              <Link to="/shipping" className="text-white">
+              <a href="/shipping" className="text-white">
                 Checkout
-              </Link>
+              </a>
             </button>
           </div>
         </div>

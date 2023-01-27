@@ -76,9 +76,9 @@ const PlaceOrderScreen = () => {
                 <img src="./images/8.png" alt="product" />
               </div>
               <div className="col-md-5 col-6 d-flex align-items-center">
-                <Link to={"/"}>
+                <a href={"/"}>
                   <h6>Girls Nike shoes</h6>
-                </Link>
+                </a>
               </div>
               <div className="mt-3 mt-md-0 col-md-2 col-6  d-flex align-items-center flex-column justify-content-center ">
                 <h4>QUANTITY</h4>
@@ -121,9 +121,9 @@ const PlaceOrderScreen = () => {
               </tbody>
             </table>
             <button type="submit" onClick={placeOrderHandler}>
-              <Link to="/order" className="text-white">
+              <a href="/order" className="text-white">
                 PLACE ORDER
-              </Link>
+              </a>
             </button>
             {/* <div className="my-3 col-12">
                 <Message variant="alert-danger">{error}</Message>

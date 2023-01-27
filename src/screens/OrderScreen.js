@@ -86,9 +86,9 @@ const OrderScreen = () => {
                 <img src="./images/4.png" alt="product" />
               </div>
               <div className="col-md-5 col-6 d-flex align-items-center">
-                <Link to={`/`}>
+                <a href={`/`}>
                   <h6>Girls Nike Shoes</h6>
-                </Link>
+                </a>
               </div>
               <div className="mt-3 mt-md-0 col-6 col-md-2  d-flex align-items-center flex-column justify-content-center ">
                 <h4>QUANTITY</h4>
